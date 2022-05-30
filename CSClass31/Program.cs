@@ -25,6 +25,22 @@ namespace CSClass31
             Console.WriteLine(random.NextDouble());
             Console.WriteLine(random.NextDouble());
             Console.WriteLine(random.NextDouble() * 10);
+
+            /*
+            List<int> list = new List<int>();
+            list.Add(52);
+            list.Add(273);    
+            list.Add(32);
+            list.Add(42);
+            */
+            List<int> list = new List<int>() { 52, 273, 32, 42 };
+            list.Remove(42);
+            list.RemoveAt(0);
+            foreach (var item in list)
+            {
+                Console.WriteLine("Count: " + list.Count + "\t" + item);
+            }
+
         }
     }
 }

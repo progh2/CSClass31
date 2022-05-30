@@ -50,6 +50,8 @@ namespace CSClass31
             Console.WriteLine(Math.Min(52, 273));
             Console.WriteLine(Math.PI);
 
+            Product product = new Product();
+
         }
     }
 }

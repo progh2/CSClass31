@@ -108,6 +108,10 @@ namespace CSClass31
 
             Console.WriteLine(MyMath.Abs(52));
             Console.WriteLine(MyMath.Abs(-52));
+            Console.WriteLine(MyMath.Abs(-52));
+            Console.WriteLine(MyMath.Abs(-52.3));
+            Console.WriteLine(MyMath.Abs(52f));
+            Console.WriteLine(MyMath.Abs(52L));
 
 
         }
